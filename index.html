@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Bhar - Tech Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>Initializing Systems // Aman Bhar</p>
+    </div>
+
+    <div id="content" style="display:none;">
+        <header>
+            <nav>
+                <div class="logo">[ AB ]</div>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <div id="particles-js"></div>
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="highlight">Aman Bhar</span></h1>
+                    <p class="subtitle">A <span id="typing-text"></span></p>
+                    <a href="#projects" class="cta-button">View My Work <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>// About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Passionate Computer Science student, I'm Aman Bhar, a developer with a knack for problem-solving and building innovative digital solutions. I thrive on learning new technologies and pushing the boundaries of what's possible. My journey in tech is driven by a curiosity to understand how things work and a desire to create impactful applications. I specialize in Web Development, DBMS and Android Application development</p>
+                       
+                    </div>
+                    <div class="about-image">
+                        <img src="https://media.licdn.com/dms/image/v2/C5603AQENcJrxp6Sd6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643657781552?e=1753920000&v=beta&t=AlimAG1UpWOoiD0LTZ4BuSHJkuQiL2f0ZB4kO1iK1IM" alt="Aman Bhar - Professional Photo">
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>// Tech Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-card"><i class="fab fa-js-square"></i> JavaScript</div>
+                    <div class="skill-card"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-card"><i class="fas fa-database"></i> SQL</div>
+                    <div class="skill-card"><i class="fas fa-server"></i> DBMS</div>
+                    <div class="skill-card"><i class="fab fa-github"></i> GitHub</div>
+                    <div class="skill-card"><i class="fas fa-file-powerpoint"></i> PowerPoint</div>
+                    <div class="skill-card"><i class="fas fa-file-excel"></i> Excel</div>
+                    <div class="skill-card"><i class="fas fa-chart-bar"></i> Power BI</div>
+   
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>// Projects</h2>
+                <div class="projects-grid">
+    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1-thumbnail.jpg" alt="Thumbnail for Project Title 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Organic Veggies</h3>
+                            <p>Just developed a Ecommerce software that i eventually converted into an android apllicatiopn. </p>
+                            <p class="tech-used"><strong>Tech:</strong> HTML, CSS, JS</p>
+                            <div class="project-links">
+                                <a href="https://aman-bhar.github.io/Organic-Farm/" target="_blank" class="btn-project">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Aman-Bhar/Organic-Farm" target="_blank" class="btn-project">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <div class="project-image">
+                             <div class="placeholder-project-img"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI-Powered Cyber Threat Detection & Response System</h3>
+                            <p>Built an AI-enhanced intrusion detection system (IDS) that monitors network traffic in real-time, detects anomalies using machine learning, and automatically takes response actions </p>
+                            <p class="tech-used"><strong>Tech:</strong> Python, Pandas, Matplotlib</p>
+                            <div class="project-links">
+                                <!-- <a href="#" target="_blank" class="btn-project">Live Demo <i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="#" target="_blank" class="btn-project">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>// Get In Touch</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/Aman-Bhar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/aman-bhar-0753b5229" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <!-- Add other social links like Twitter, etc. -->
+                    <!-- <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> Aman Bhar. All rights reserved. // Built out of Boredom in a sleepless night</p>
+        </footer>
+    </div>
+
+    <!-- Particle.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- ScrollReveal for scroll animations -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
